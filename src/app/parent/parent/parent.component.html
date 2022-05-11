@@ -1,0 +1,11 @@
+
+<div id="parent">
+    <h1>Parent Component :</h1>
+    <br>
+    
+    <!--<button  id="button" (click)="myFunction()"> Click me </button>-->
+    
+<h3> {{r_Message}}</h3>
+</div>
+
+<app-child (messageEvent)="recieveMessage($event)"></app-child>
